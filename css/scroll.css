@@ -1,0 +1,17 @@
+::-webkit-scrollbar
+{
+    width: 10px;
+    filter: blur(30px);
+    background: #2a0077;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background:  #3600be;
+    filter: blur(30px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3D00D4;
+  transition: 0.5s;
+}

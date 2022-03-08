@@ -1,0 +1,187 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+}
+
+.header {
+  background: url('https://i.ibb.co/nB0YZt3/galaxy.jpg') repeat; 
+  height: 1000px;
+  text-align: center; 
+}
+
+.floatbutton:hover,
+.floatbutton:focus {
+  animation: bg_animate 4s infinite linear;
+  transform:scale(1.1) translateY(-25px);
+}
+
+.floatbutton {
+  background: url("https://i.pinimg.com/originals/88/77/57/887757f89b6684698877a8c8f72297c0.jpg");
+  border-radius: 60px;
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  box-shadow: 10px 10px 10px #110030;
+  height: 400px;
+  width: 300px;
+  transition: cubic-bezier(.17,.67,1,1.23) 500ms;
+  margin: 50px;
+}
+
+.floatbutton .head
+{
+  font-family: 'Spartan';
+  font-size: 35px;
+  color: #fff;
+  letter-spacing: 0px;
+}
+
+.floatbutton .desc
+{
+  font-family: 'Spartan';
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0px;
+}
+
+.floatbutton2:hover,
+.floatbutton2:focus {
+  animation: bg_animate 4s infinite linear;
+  transform: scale(1.1) translateY(-25px);
+}
+
+.floatbutton2 {
+  background: url("https://i.pinimg.com/originals/88/77/57/887757f89b6684698877a8c8f72297c0.jpg");
+  border-radius: 60px;
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  box-shadow: 10px 10px 10px #110030;
+  height: 400px;
+  width: 300px;
+  transition: cubic-bezier(.17,.67,1,1.23) 500ms;
+  margin: 50px;
+  
+}
+
+@keyframes bg_animate
+{
+  0%
+  {
+    box-shadow: inset 60px 0 100px rgba(0, 174, 255, 0.25),
+    inset -60px 0 100px rgba(158, 0, 87, 0.25),
+    inset 0px 100px 100px rgba(104, 0, 165, 0.25),
+    inset 0px -100px 100px rgba(45, 0, 209, 0.25),
+    -60px 0 100px rgba(0, 174, 255, 0.35),
+    60px 0 100px rgba(158, 0, 87, 0.35),
+    0px -100px 100px rgba(104, 0, 165, 0.35),
+    0px 100px 100px rgba(45, 0, 209, 0.35);
+  }
+  50%
+  {
+    box-shadow: inset 60px 0 100px rgba(133, 216, 255, 0.25),
+    inset -60px 0 100px rgba(232, 58, 255, 0.25),
+    inset 0px 100px 100px rgba(0, 110, 255, 0.25),
+    inset 0px -100px 100px rgba(255, 109, 211, 0.25),
+    -60px 0 100px rgba(133, 216, 255, 0.35),
+    60px 0 100px rgba(232, 58, 255, 0.35),
+    0px -100px 100px rgba(0, 110, 255, 0.35),
+    0px 100px 100px rgba(255, 109, 211, 0.35);
+  }
+  100%
+  {
+    box-shadow: inset 60px 0 100px rgba(0, 174, 255, 0.25),
+    inset -60px 0 100px rgba(158, 0, 87, 0.25),
+    inset 0px 100px 100px rgba(104, 0, 165, 0.25),
+    inset 0px -100px 100px rgba(45, 0, 209, 0.25),
+    -60px 0 100px rgba(0, 174, 255, 0.35),
+    60px 0 100px rgba(158, 0, 87, 0.35),
+    0px -100px 100px rgba(104, 0, 165, 0.35),
+    0px 100px 100px rgba(45, 0, 209, 0.35);
+  }
+}
+
+
+.floatbutton2 .head
+{
+  font-family: 'Spartan';
+  font-size: 35px;
+  color: #fff;
+  letter-spacing: 0px;
+}
+
+.floatbutton2 .desc
+{
+  font-family: 'Spartan';
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0px;
+}
+
+.floatbutton3:hover,
+.floatbutton3:focus {
+  animation: bg_animate 4s infinite linear;
+  transform: scale(1.1) translateY(-25px);
+}
+
+.floatbutton3 {
+  background: url("https://i.pinimg.com/originals/88/77/57/887757f89b6684698877a8c8f72297c0.jpg");
+  border-radius: 60px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 10px 10px 10px #110030;
+  height: 400px;
+  border: none;
+  width: 300px;
+  transition: cubic-bezier(.17,.67,1,1.23) 500ms;
+  margin: 50px;
+}
+
+.floatbutton3 .head
+{
+  font-family: 'Spartan';
+  font-size: 35px;
+  color: #fff;
+  letter-spacing: 0px;
+}
+
+.floatbutton3 .desc
+{
+  font-family: 'Spartan';
+  position: relative;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0px;
+}
+
+.header h1 {
+  color: #fff;
+  line-height: 80px; 
+  font-size: 80px;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px black;
+  transition: 2s;
+}
+
+.header p {
+    color: #fff;
+    line-height: 25px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px black;
+    transition: 2.5s;
+}
+
